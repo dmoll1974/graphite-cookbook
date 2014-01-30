@@ -7,3 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 include_recipe "graphite"
+include_recipe "graphite-klm::benchmark"
