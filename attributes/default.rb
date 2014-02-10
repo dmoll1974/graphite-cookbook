@@ -3,7 +3,7 @@ override['graphite']['storage_schemas'] = [
   {
     'name' => 'everything_30s7d_15m1m',
     'match-all' => true,
-    'retentions' => '60s:30d,300s:90d'
+    'retentions' => '15s:30d,300s:90d'
   }
 ]
 override['graphite']['carbon']['enable_udp_listener'] = "True"
