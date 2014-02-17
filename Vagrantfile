@@ -79,7 +79,7 @@ Vagrant.configure("2") do |config|
     }
 
     chef.run_list = [
-        "recipe[bamboo-benchmark-klm::default]"
+        "recipe[bamboo-benchmark-cookbook::default]"
     ]
   end
 end

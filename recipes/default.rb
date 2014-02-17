@@ -7,4 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe "bamboo-benchmark-klm::benchmark"
+#include_recipe "bamboo-benchmark-klm::benchmark"
