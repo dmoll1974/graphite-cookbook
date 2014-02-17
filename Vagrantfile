@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
   # All Vagrant configuration is done here. The most common configuration
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
-  config.vm.hostname = "graphite-klm-berkshelf"
+  config.vm.hostname = "bamboo-benchmark-klm"
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "ubuntu-server-13.04"
@@ -79,7 +79,7 @@ Vagrant.configure("2") do |config|
     }
 
     chef.run_list = [
-        "recipe[graphite-klm::default]"
+        "recipe[bamboo-benchmark-klm::default]"
     ]
   end
 end
